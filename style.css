@@ -1,0 +1,56 @@
+
+body{
+background-color:olive;
+}
+/*************************/
+
+#main{
+margin:auto;
+border:solid red 5px;
+max-width:890px;
+overflow:hidden;
+}
+/*******************************/
+
+#central{
+width:480px;
+height:480px;
+border-radius:255px;
+border:solid red 20px;
+display:inline-block;
+background-image:url(pizza-left.png),url(pizza-right.png);
+background-repeat:no-repeat,no-repeat;
+background-position:left center,right center;
+background-size: 240px 480px,240px 480px;
+position:relative;
+top:-280px;
+left:-270px;
+transition:all 1s ease;
+}
+
+.botoes{
+	float: left;
+	max-width: 550px;
+}
+
+.pizza{
+	float: left;
+	height: 280px;
+	width: 260px;
+}
+
+button{
+border:none;
+height:40px;
+font-size:1.5em;
+background-color: #4CAF50;
+color:red;
+text-shadow: 1px 1px #000000;
+float: left;
+margin: 0 3px 2px;
+
+}
+
+button:hover{
+background-color: #669966;
+}
